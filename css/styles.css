@@ -116,6 +116,7 @@ body {
 .filter-item .filter-btn:focus {
   color: #ffffff;
   background-color: var(--select-color);
+  cursor: pointer;
 }
 /*gallery-project*/
 .gallery-title {
