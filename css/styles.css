@@ -1,0 +1,30 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.link-logo {
+  color: #2196f3;
+}
+.logo {
+  color: #212121;
+}
+.nav-link {
+  color: #212121;
+}
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: #2196f3;
+}
+.contacts-link {
+  color: #212121;
+}
+
+.contacts-list .contacts-link:hover,
+.contacts-list .contacts-link:focus {
+  color: #2196f3;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
