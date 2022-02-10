@@ -1,30 +1,39 @@
+:root {
+  /*color*/
+  --main-color: #757575;
+  --secondary-color: #212121;
+  --select-color: #2196f3;
+  --main-background: #e5e5e5;
+  --secondary-background: #f5f4fa;
+  --hedder-footer-background: #2f303a;
+}
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color);
 }
 .link-logo {
-  color: #2196f3;
+  color: var(--select-color);
 }
-.logo {
-  color: #212121;
+.item-logo {
+  color: var(--secondary-color);
 }
 .nav-link {
-  color: #212121;
+  color: var(--secondary-color);
 }
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
-  color: #2196f3;
+  color: var(--select-color);
 }
 .contacts-link {
-  color: #212121;
+  color: var(--secondary-color);
 }
 
 .contacts-list .contacts-link:hover,
 .contacts-list .contacts-link:focus {
-  color: #2196f3;
+  color: var(--select-color);
 }
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
