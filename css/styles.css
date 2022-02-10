@@ -3,8 +3,7 @@
   --main-color: #757575;
   --secondary-color: #212121;
   --select-color: #2196f3;
-  --main-background: #f5f4fa;
-  --secondary-background: #e5e5e5;
+  --section-team-background: #f5f4fa;
   --hero-footer-background: #2f303a;
 }
 .list {
@@ -19,8 +18,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  background-color: var(--main-background);
 }
+
 /*logo-header*/
 .link-logo {
   color: #2196f3;
@@ -47,7 +46,7 @@ body {
 }
 /*hero*/
 .hero {
-  background: var(--hero-footer-background);
+  background-color: var(--hero-footer-background);
 }
 .hero-title {
   font-size: 44px;
@@ -60,7 +59,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: var(--select-color);
+  background-color: var(--select-color);
 }
 /*section-adge*/
 .invisible-title {
@@ -80,7 +79,7 @@ body {
 }
 /*sectionteam*/
 .team {
-  background-color: var(--secondary-background);
+  background-color: var(--section-team-background);
 }
 .team-subtitle {
   font-size: 16px;
