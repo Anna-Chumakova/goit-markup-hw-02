@@ -46,12 +46,14 @@ body {
   color: var(--select-color);
 }
 /*hero*/
+.hero {
+  background: var(--hero-footer-background);
+}
 .hero-title {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: var(--hero-footer-background);
 }
 .hero-btn {
   font-size: 16px;
@@ -111,6 +113,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: var(--secondary-color);
+  background-color: var(--secondary-background);
 }
 .filter-item .filter-btn:hover,
 .filter-item .filter-btn:focus {
