@@ -41,7 +41,11 @@ body {
 }
 
 .contacts-list .contacts-link:hover,
-.contacts-list .contacts-link:focus {
+.contacts-list .contacts-link:focus,
+.address-item .address-link:hover,
+.address-item .address-link:focus,
+.address-item .footer-contacts:hover,
+.address-item .footer-contacts:focus {
   color: var(--select-color);
 }
 /*hero*/
@@ -112,7 +116,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: var(--secondary-color);
-  background-color: var(--secondary-background);
+  background-color: var(--section-team-background);
 }
 .filter-item .filter-btn:hover,
 .filter-item .filter-btn:focus {
