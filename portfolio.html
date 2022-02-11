@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="en">Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <!--section header-->
 <header class="nav">
-    <a class="link-logo link" href="./index.html" lang="en">Web <span class="item-logo">Studio</span></a>
+    <a class="link-logo link" href="" lang="en">Web <span class="item-logo">Studio</span></a>
     <nav>
         <ul class="nav-list list">
-            <li class="nav-item"><a class="nav-link link" href="">Студия</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Портфолио</a></li>
+            <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
+            <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
             <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
         </ul>
     </nav>
@@ -29,19 +29,16 @@
 </header>
 <!--section main-->
 <main>
-    <!--section filter-->
-<section class="filter">
-   <h1 class="invisible-title">кнопки фильтров портфолио</h1>
-    <ul class="filter-list list">
-        <li class="filter-item"><button class="filter-btn" type="button">Все</button></li>
-        <li class="filter-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
-        <li class="filter-item"><button class="filter-btn" type="button">Приложения</button></li>
-        <li class="filter-item"><button class="filter-btn" type="button">Дизайн</button></li>
-        <li class="filter-item"><button class="filter-btn" type="button">Маркетинг</button></li>
-    </ul>
-</section>
 <!--section imeges-->
 <section class="gallery-project">
+    <h1 class="invisible-title">кнопки фильтров портфолио</h1>
+    <ul class="filter-list list">
+        <li class="filter-item"><button class="all filter-btn" type="button">Все</button></li>
+        <li class="filter-item"><button class="web filter-btn" type="button">Веб-сайты</button></li>
+        <li class="filter-item"><button class="app filter-btn" type="button">Приложения</button></li>
+        <li class="filter-item"><button class="disign filter-btn" type="button">Дизайн</button></li>
+        <li class="filter-item"><button class="marketing filter-btn" type="button">Маркетинг</button></li>
+    </ul>
     <ul class="gallery-list list">
         <li class="gallery-item">
             <img class="gallery-img" src="./gallery/imeges/picture1.jpg" alt="сайт на мониторе ноутбука" width="370" height="294">
