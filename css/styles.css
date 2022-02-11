@@ -32,14 +32,7 @@ body {
   color: var(--secondary-color);
 }
 .nav-list .nav-link:hover,
-.nav-list .nav-link:focus {
-  color: var(--select-color);
-}
-/*contacts-header*/
-.contacts-link {
-  color: var(--secondary-color);
-}
-
+.nav-list .nav-link:focus,
 .contacts-list .contacts-link:hover,
 .contacts-list .contacts-link:focus,
 .address-item .address-link:hover,
@@ -48,6 +41,11 @@ body {
 .address-item .footer-contacts:focus {
   color: var(--select-color);
 }
+/*contacts-header*/
+.contacts-link {
+  color: var(--secondary-color);
+}
+
 /*hero*/
 .hero {
   background-color: var(--hero-footer-background);
