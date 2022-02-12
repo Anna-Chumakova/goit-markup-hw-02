@@ -14,7 +14,6 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -24,12 +23,7 @@ body {
 
 /*logo-header*/
 .link-logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -37,12 +31,7 @@ body {
   color: #2196f3;
 }
 .item-logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -51,10 +40,6 @@ body {
 }
 /*nav-header*/
 .nav-link {
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,10 +61,6 @@ body {
 }
 /*contacts-header*/
 .contacts-link {
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -101,6 +82,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -116,10 +98,6 @@ body {
   visibility: hidden;
 }
 .adge-subtitle {
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -145,10 +123,6 @@ body {
   background-color: var(--section-team-background);
 }
 .team-subtitle {
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -157,10 +131,6 @@ body {
   color: var(--secondary-color);
 }
 .team-text {
-  width: 147px;
-  height: 19px;
-  left: 577px;
-  top: 1954px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -172,12 +142,7 @@ body {
   background-color: var(--hero-footer-background);
 }
 .footer-item-logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -186,10 +151,6 @@ body {
 }
 .address-link,
 .footer-contacts {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2208px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -204,13 +165,9 @@ body {
 /*buttons*/
 
 .filter-btn {
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -226,10 +183,6 @@ body {
 }
 /*gallery-project*/
 .gallery-title {
-  width: 322px;
-  height: 36px;
-  left: 639px;
-  top: 576px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -237,11 +190,6 @@ body {
   color: var(--secondary-color);
 }
 .gallery-text {
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 616px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
